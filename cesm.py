@@ -20,10 +20,10 @@ from .core.data_access import DAO
 import sqlite3
 
 # Constants
-DATA_DIR_PATH = Path(".").joinpath('Data')
-TECHMAP_DIR_PATH = Path(".").joinpath('Data', 'Techmap')
-TS_DIR_PATH = Path(".").joinpath('Data', 'TimeSeries')
-RUNS_DIR_PATH = Path(".").joinpath('Runs')
+DATA_DIR_PATH = Path("CESM").joinpath('Data')
+TECHMAP_DIR_PATH = Path("CESM").joinpath('Data', 'Techmap')
+TS_DIR_PATH = Path("CESM").joinpath('Data', 'TimeSeries')
+RUNS_DIR_PATH = Path("CESM").joinpath('Runs')
 
 FNAME_MODEL = 'db.sqlite'
 # -- Helpers -- #
