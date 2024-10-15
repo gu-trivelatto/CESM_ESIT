@@ -1,5 +1,6 @@
 # Project
-Runs/
+Runs/*
+!Runs/DEModel-Base
 Data/Techmap/DEModel_modified.xlsx
 
 # Byte-compiled / optimized / DLL files
